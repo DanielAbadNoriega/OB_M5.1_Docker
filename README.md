@@ -5,8 +5,7 @@ En las lecciones 17, 18 y 24 seguiremos añadiendo funcionalidades a nuestro pro
 1. Recuperamos el proyecto final y añadiremos TailwindCSS para darle estilos
 2. Realizamos la instalación de TailwindCSS y sus dependencias (https://tailwindcss.com/docs/guides/create-react-app)
 3. Damos formato a toda nuestra aplicación con TailwindCSS
-### Tarea Lección 17
-Utiliza Framer Motion para animar el check/uncheck de las tareas
+
 
 ## Lección 18 - Introducción a Docker
 1. ¿Qué es Docker, y por qué es tan importante?
@@ -15,6 +14,11 @@ Utiliza Framer Motion para animar el check/uncheck de las tareas
 4. Instalamos Docker en nuestro proyecto final
 5. Creamos el Dockerfile con la configuración de nuestro contenedor
 6. Creamos una cuenta en Docker Hub (https://hub.docker.com)
+7. Creamos el .dockerignore para ignorar node_modules
+8. Ejecutamos docker: 
+````
+docker build -t danabadnor/ob_m5.1_docker .
+````
 7. Desplegamos nuestra aplicación con "docker push"
 ### Tarea Lección 18
 Añade un nuevo componente y vuelve a desplegar la aplicación utilizando "docker push"
